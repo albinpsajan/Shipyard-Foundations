@@ -1,10 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Scalable App</title>
+    <title>My Scalable Web App</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 15%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5em;
+            opacity: 0.9;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello from Kubernetes 🚀</h1>
-    <p>Student: Albin</p>
+
+<div class="container">
+    <div class="card">
+        <h1>Kubernetes Web App</h1>
+        <p>Deployed using Docker + Kubernetes</p>
+        <p><strong>Student: Albin</strong></p>
+    </div>
+</div>
+
+<div class="footer">
+    Powered by Nginx | Scalable Architecture
+</div>
+
 </body>
 </html>
